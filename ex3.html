@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(196, 211, 238);
+            font-family: "맑은 고딕", sans-serif;
+        }
+
+        .header{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 30px;/* 안쪽여백 */
+            text-align: center;
+        }
+
+        .menu {
+            background-color: white;
+            padding: 20px;/* 박스 안쪽여백 */
+            text-align: center;
+        }/* 메뉴 박스에 대하여 */
+        .menu a{
+            color: #333333;/* 링크한 문자에 컬러 변경하기 */
+            text-decoration: none;/* 링크한 문자에 밑줄없애기 */
+            margin: 20px;
+        }/* 메뉴 박스 안에 있는 링크 a에 대하여 */
+
+        .menu a:hover{
+            color:skyblue
+        }
+
+        .content{
+            max-width: 1000px;
+            margin: 30px auto;/* 위아래는 30px, auto 좌우는 가운데 정렬 */
+            padding: 30px;
+            background-color: white;
+            text-align: center;
+        }
+        .content img{
+            width: 100%; max-width: 1200px; height: auto;
+        }
+        .button{
+            display: inline-block;
+            background-color: #333333;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+        }
+        .button:hover{
+            background-color:rgb(196, 211, 238);/* 마우스를 hover하면 이 컬러로 바뀜 */
+        }
+
+        .footer{
+            background-color: white;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>MY GANADI PAGE</h1>
+        <p>나의 첫 번째 가나디입니다.</p>
+    </div>
+
+    <div class="menu">
+        <a href="https://m.ke-shop.kr/product/detail.html?product_no=831&cate_no=125&display_group=1">헤이진</a>
+        <a href="https://m.ke-shop.kr/product/detail.html?product_no=831&cate_no=125&display_group=1">깃허브</a>
+        <a href="">PDF</a>   
+    </div>
+
+    <div class="content">
+        <h2>안녕하세요!!!!!!</h2>
+        <p>가나디 페이지입니다.</p>
+        <img src="img/ganadi2.png" alt="홈페이지 대문이미지 입니다.">
+        <a href="https://m.ke-shop.kr/product/detail.html?product_no=831&cate_no=125&display_group=1" target="_blank"
+        class="button">바로가기</a>
+    </div>
+
+    <div class=""footer">
+         <p>Copyright 2026. All Rights Reserved.</p>  
+    </div>
+</body>
+</html>
